@@ -5,7 +5,7 @@
 Task("Server").Does(() => {
     var settings = new UServerSettings {
         Port = 9000,
-        Path = "./"
+        Path = "./hello"
     };
     UServer(settings);
 });
